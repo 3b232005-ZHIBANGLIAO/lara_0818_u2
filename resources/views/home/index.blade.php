@@ -1,10 +1,10 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <title>Home Page</title>
-</head>
-<body>
-    <h1>Welcome to Home Page</h1>
-</body>
-</html>
+@extends('layouts.master')
+
+@section('title', 'Home')
+
+@section('content')
+    <h2>Lara_0818_u2</h2>
+    <p>
+        This is my body content.
+    </p>
+@endsection
